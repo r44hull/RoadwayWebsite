@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ROADWAY</title>
+        <style>
+            body {
+                background-color: black; 
+                font-family: Arial, sans-serif; 
+                color: white;
+            }
+            header {
+                text-align: center; 
+                padding: 20px 0;
+            }
+            nav {
+                background-color: black; 
+                text-align: center; 
+                padding: 10px 0;
+            }
+            nav a {
+                color: white; 
+                text-decoration: none; 
+                margin: 0 10px; 
+                font-family: 'Courier New', Courier, monospace;
+            }
+            main {
+                padding: 20px;
+                max-width: 1200px;
+                margin: 0 auto;
+            }
+            .form-section {
+                margin-top: 40px;
+                text-align: center;
+            }
+            table {
+                margin: 0 auto;
+                font-family: 'Courier New', Courier, monospace;
+            }
+            button {
+                background-color: forestgreen; 
+                color: white; 
+                padding: 10px 20px; 
+                border: none; 
+                border-radius: 25px; 
+                font-size: 16px; 
+                cursor: pointer; 
+                font-family: 'Courier New', Courier, monospace;
+            }
+        </style>
+        <script src="validation.js"></script>
+    </head>
+    <body>
+        <header>
+            <img src="images/Roadway.png" alt="Roadway Logo" height="100" style="border-radius: 10px;">
+        </header>
+        <nav>
+            <a href="Home.html">HOME</a>
+            <a href="About.html">ABOUT</a>
+            <a href="Products.html">PRODUCTS</a>
+            <a href="Registration.html">REGISTRATION</a>
+            <a href="Contact.html">CONTACT</a>
+        </nav>
+        <main>
+            <section class="form-section">
+                <form name="Registration" onsubmit="return validateForm()">
+                    <table>
+                        <br>
+                        <br>
+                        <br>
+
+                        <tr><td>Name </td><td>: </td><td><input type="text" name="Name"></td></tr>
+
+                        <tr><td> </td><td> </td><td> </td></tr>
+                        <tr><td> </td><td> </td><td> </td></tr>
+
+                        <tr><td>E-Mail </td><td>: </td><td><input type="text" name="E-Mail"></td></tr>
+
+                        <tr><td> </td><td> </td><td> </td></tr>
+                        <tr><td> </td><td> </td><td> </td></tr>
+
+                        <tr><td>Password </td><td>: </td><td><input type="password" name="Password"></td></tr>
+
+                        <tr><td> </td><td> </td><td> </td></tr>
+                        <tr><td> </td><td> </td><td> </ </tr>
+
+                        <tr><td>Phone no </td><td>: </td><td><input type="text" name="Phone_no"></td></tr>
+
+                        <tr><td> </td><td> </td><td> </ </tr>
+                        <tr><td> </td><td> </ </tr>
+
+                        <tr><td>Address </td><td>: </td><td><textarea name="Address" style="width: 162px; resize: none; height: 35px;"></textarea></td></tr>
+
+                        <tr><td> </td><td> </ </tr>
+                        <tr><td> </td><td> </ </tr>
+                        <tr><td> </td><td> </ </tr>
+                        <tr><td> </td><td> </ </tr>
+                        <tr><td> </td><td> </ </tr>
+                        <tr><td> </td><td> </ </tr>
+                        <tr><td> </td><td> </ </tr>
+                        <tr><td> </td><td> </ </tr>
+                        <tr><td> </td><td> </ </tr>
+                        <tr><td> </td><td> </ </tr>
+                        <tr><td> </td><td> </ </tr>
+
+                        <tr align="center"><td colspan="3"><button type="submit">SUBMIT</button></td></tr>
+                    </table>
+                </form>
+            </section>
+        </main>
+    </body>
+</html>
